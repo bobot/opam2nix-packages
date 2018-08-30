@@ -4,8 +4,8 @@ let
 		src = fetchFromGitHub {
 			"owner" = "timbertson";
 			"repo" = "opam2nix-packages";
-			"sha256" = "1dglw1i5ccgy7i2hlhncz3cr2qw7zddwswmwhkm2jzh8ckymll9g";
-			"rev" = "4b31cbaae04285bc89845babbc4a009b1efce119";
+			"sha256" = "1rhsbij9k330vlkp2xryhf1xvzdga6mvw35ldx58dv4xs333f1c8";
+			"rev" = "99cb7bfc676000525634571d44befe7eb4fb4111";
 		};
 		opam2nixSrc = fetchFromGitHub {
 			"owner" = "timbertson";
