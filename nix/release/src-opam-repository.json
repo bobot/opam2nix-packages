@@ -1,16 +1,16 @@
 {
   "fetch": {
     "args": {
-      "owner": "ocaml",
+      "owner": "bobot",
       "repo": "opam-repository",
-      "rev": "a06755bb586616da814c958c5852ef22666bd6e0",
-      "sha256": "102sfs6j7yd0gpl9knjrn27vsrqr50j8y6cv5yd2njw3p0cjm09x"
+      "rev": "718a350362e386e3b7ee50a0894ec249e6385208",
+      "sha256": "0iqxch1mmmq8f4i0xp3cwxlyxd65ppskvscf9xhr8jsnxkc3z3l6"
     },
     "fn": "fetchFromGitHub",
     "localRepo": "../../opam-repository",
-    "owner": "ocaml",
+    "owner": "bobot",
     "repo": "opam-repository",
-    "rev": "a06755bb586616da814c958c5852ef22666bd6e0",
+    "rev": "718a350362e386e3b7ee50a0894ec249e6385208",
     "type": "fetchFromGitHub"
   }
 }
