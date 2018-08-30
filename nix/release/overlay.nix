@@ -3,8 +3,8 @@ self: super: with super; {
 		src = fetchFromGitHub {
 			"owner" = "timbertson";
 			"repo" = "opam2nix-packages";
-			"sha256" = "1kf8cbmvwr8w07cjw91m4bcbgfs4kx0ir3w6qzbgq9an5mvqijcs";
-			"rev" = "3c201f578fe5309bad04f750502beed49b2396ce";
+			"sha256" = "1vynha4nj3d7887faly4bz8wkmwynqzfbdpifvmvw470nimy9gg7";
+			"rev" = "d057a2edbb36ed52088b7a1bae6a3dbdf24322e2";
 		};
 		opam2nixSrc = fetchFromGitHub {
 			"owner" = "timbertson";
