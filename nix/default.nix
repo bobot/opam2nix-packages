@@ -1,6 +1,7 @@
 {
 	pkgs ? import <nixpkgs> {},
-	opam2nixBin ? pkgs.callPackage "${(pkgs.nix-update-source.fetch ./release/src-opam2nix.json).src}/nix" {}
+	opam2nixBin ? pkgs.callPackage "${(pkgs.nix-update-source.fetch ./release/src-opam2nix.json).src}/nix" {},
+        src-opam-repository ? ./release/src-opam-repository.json
 }:
 with pkgs;
 let
@@ -258,7 +259,7 @@ let
 		# The package selection is restricted to this exact set due to the need
 		# for `digestMap` to be exhaustive, so this is strongly bound to this
 		# exact checkout of `opam2nix-packages`
-		defaultOpamRepository = (nix-update-source.fetch ./release/src-opam-repository.json).src;
+		defaultOpamRepository = (nix-update-source.fetch src-opam-repository).src;
 
 		generateOfficialPackages = {
 			opamRepository ? defaultOpamRepository,
