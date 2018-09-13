@@ -2,10 +2,10 @@
 with pkgs;
 let
 		src = fetchFromGitHub {
-			"owner" = "timbertson";
+			"owner" = "bobot";
 			"repo" = "opam2nix-packages";
-			"sha256" = "0dpmizaq1a2rmxsxqp23rcwccda5jymgpzk0ij2x8czxn9hxn60c";
-			"rev" = "49c0b43db35cedd259c0571481fa362642bc701b";
+			"sha256" = "1bkjhzl74z3ir3xsin6mlfq587lp3h58jgxsa6w09nfs5qrmw9di";
+			"rev" = "ed36cec38121048e2c28755bde2d8ae861c5f1eb";
 		};
 		opam2nixSrc = fetchFromGitHub {
 			"owner" = "timbertson";
