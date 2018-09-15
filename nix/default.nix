@@ -271,7 +271,7 @@ let
 			packages ? null
 		}: makeRepository {
 			inherit opamRepository digestMap dest unclean packages opam2nixBin offline;
-			numVersions = "2.3.2";
+			numVersions = null; # "2.3.2";
 			ignoreBroken = true;
 		};
 
