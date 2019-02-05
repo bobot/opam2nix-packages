@@ -1,6 +1,6 @@
 {
 	pkgs ? import <nixpkgs> {},
-	opam2nixBin ? pkgs.callPackage "${(pkgs.nix-update-source.fetch ./release/src-opam2nix.json).src}/nix" {},
+	opam2nixBin ? pkgs.callPackage "${(pkgs.nix-update-source.fetch ./release/src-opam2nix.json).src}/nix" { ocamlPackages = pkgs.ocaml-ng.ocamlPackages_4_05; },
         src-opam-repository ? ./release/src-opam-repository.json
 }:
 with pkgs;
